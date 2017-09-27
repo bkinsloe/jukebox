@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #017451;
+	color: #DDD;
+}
+
+h1, h2, h3, h4, h5, h6 { color: #19AC7F; font-weight: bold; margin: 0.25em 0 0.25em 0}
+
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.0em; margin-top: 1em;}
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.3em; }
+h6 { font-size: 1.2em; }
+
+*::-webkit-input-placeholder {
+   color: #444;
+}
+
+*:-moz-placeholder { /* Firefox 18- */
+   color: #AAA;
+}
+
+*::-moz-placeholder {  /* Firefox 19+ */
+   color: #AAA;
+}
+
+*:-ms-input-placeholder {
+   color: #AAA;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#header, #content {
+	background: #333;
+}
+
+#header {
+	background: #222;
+	border-bottom: 1px solid #222;
+}
+
+#content {
+	min-height: 450px;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #222;
+}
+
+#content input {
+	width: 100%;
+	height: 2em;
+	font-size: 1.5em;
+	border-radius: 2px;
+	padding: 0.4em;
+	border: 0;
+	background: #222;
+	color: #DDD;
+}
+
+#content input:focus {
+	outline: 0;
+}
+
+#content #login-submit {
+	background: #00A07A;
+}
+
+#player {
+	width: 100%;
+}
+
+.search-results {
+
+}
+
+.search-results ul {
+
+}
+
+.search-results ul li {
+	background: #DDD;
+	border-bottom: 1px solid #BBB;
+}
+
+.search-results ul li a {
+	color: #333;
+	display: block;
+	padding: 1em;
+	background: #DDD;
+	cursor: pointer;
+}
+
+.search-results ul li p {
+	color: #333;
+	padding: 1em;
+}
+
+.search-results ul a:hover {
+	background: #61C185;
+}
+
+.search-results ul li a img {
+	width: 20%;
+}
+.search-results ul li a p {
+	display: inline;
+	width: 80%;
+	float: right;
+	padding: 1em;
+	font-weight: bold;
+}
+
+.admin {
+	margin: 2em 0;
+}
+
+.admin-button {
+	padding: 0.3em 0.5em;
+	font-size: 1.5em;
+	margin: 0 1em 0 0;
+	background: #017451;
+	border-radius: 2px;
+	cursor: pointer;
+	color: white;
+}
+
+.admin-button:hover {
+	background: #555;
+}
+
+#footer {
+	border-top: 1px solid #00A07A;
+}
